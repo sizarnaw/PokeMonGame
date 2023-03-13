@@ -1,0 +1,216 @@
+*{
+    padding:0;
+    margin:0;
+
+}
+body{
+    background-color: #FCEEC8;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display:flex;
+}
+.left-content,.right-content{
+    flex-basis: 50%;
+}
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0,5fr));
+    grid-gap: 2rem;
+}
+.card {
+    width :300px;
+    background-color: #9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0,0,0.5);
+    padding: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.right-content{
+    flex-basis: 50%;
+    width: 50%;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+}
+.right-content img{
+    margin: 2rem;
+    height: 190px;
+}
+.right-content h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.abilities{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+
+}
+.abilities .group{
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.moves{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.moves .group{
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-left: 1rem;
+}
+.base-stat{
+    margin-top: 2rem;
+}
+.btn-group{
+    display: flex;
+}
+.btn-group button{
+    outline: none;
+    border: none;
+    width: 150px;
+    padding: 0.3rem 0;
+    margin: 1rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b74555;
+    border-radius: 8px;
+}
+
+button{
+    display: inline-block;
+    padding: 25px 40px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: 0 5px 5px rgba(0, 0,0,0.5);
+    background-color: #9EDEF9;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.move_group {
+    display: inline-block;
+    padding: 15px 20px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    align-items: center;
+    color: 0 5px 5px rgba(0, 0,0,0.5);
+    background-color: #9EDEF9;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.Pokemon-container .move_group{
+    color: white;
+    font-size: 50px;
+    border-radius: 8px;
+    text-align: center;
+    grid-gap: 2rem;
+    background-color: #9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0,0,0.5);
+    padding: 0 1.5rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+.fight-container{
+    width: 100%;
+}
+
+.Pokemon-container img{
+    margin: 1rem;
+    height: 190px;
+    align-items: center;
+
+}
+.pokemon-container h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+ .middle-content{
+    color: white;
+    font-size: 50px;
+    border-radius: 8px;
+    text-align: center;
+    grid-gap: 2rem;
+    background-color: #9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0,0,0.5);
+    padding: 0 1.5rem;
+    align-items: center;
+    box-sizing: border-box;
+    
+}
+.fightstate-container{
+
+    text-align: center;
+    color: blanchedalmonda;
+    font-size: 20px;
+    border-radius: 8px;
+    text-align: center;
+    grid-gap: 2rem;
+    background-color: #9EDEF9;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgba(0, 0,0,0.5);
+    padding: 0 1.5rem;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+.winner-container{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    grid-gap: 2rem;
+    background-color: black;
+    box-shadow: 0 5px 5px rgba(0, 0,0,0.5);
+    box-sizing: border-box;
+
+}
+.winner-container button{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 8px;
+    grid-gap: 2rem;
+    background-color: black;
+    box-shadow: 0 5px 5px rgba(0, 0,0,0.5);
+    box-sizing: border-box;
+}
